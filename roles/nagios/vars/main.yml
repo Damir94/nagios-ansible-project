@@ -1,0 +1,14 @@
+nagiosurl: https://github.com/NagiosEnterprises/nagioscore/archive/nagios-4.4.6.tar.gz
+nagiossrc: nagios-4.4.6
+pluginsurl: https://nagios-plugins.org/download/nagios-plugins-2.3.2.tar.gz
+pluginssrc: nagios-plugins-2.3.2
+apache_service: httpd
+apache_user: apache
+iptables_service: iptables
+with_httpd_conf: /etc/httpd/conf.d
+monitoring_user: nagios
+monitoring_command_group: nagios
+download_dir: /home/ansible
+nagios_users:
+  - user: jainendra
+    pass: jainendra
