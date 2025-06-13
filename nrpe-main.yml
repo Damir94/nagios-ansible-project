@@ -1,3 +1,4 @@
+
 - hosts: nrpe-servers
   gather_facts: True
   remote_user: ansible
